@@ -58,6 +58,56 @@ const Home = () => (
           <a href="/news" className="home-cta-btn home-cta-btn-alt">Latest News</a>
           <a href="/contact" className="home-cta-btn home-cta-btn-outline">Contact</a>
         </div>
+        {/* --- NEW CONTENT BELOW --- */}
+        <section className="home-history-section">
+          <h2 className="home-section-title">Club History</h2>
+          <p className="home-section-text">
+            Founded in 1886, Arsenal FC is one of England’s most decorated clubs, renowned for its attacking football, legendary managers, and a rich tradition of success. From the Invincibles season to the modern era, Arsenal continues to inspire millions worldwide.
+          </p>
+        </section>
+        <section className="home-legends-section">
+          <h2 className="home-section-title">Featured Legends</h2>
+          <div className="home-legends-list">
+            <div className="home-legend-card">
+              <img src={logoArs} alt="Thierry Henry" className="home-legend-img" />
+              <span className="home-legend-name">Thierry Henry</span>
+            </div>
+            <div className="home-legend-card">
+              <img src={logoArs} alt="Dennis Bergkamp" className="home-legend-img" />
+              <span className="home-legend-name">Dennis Bergkamp</span>
+            </div>
+            <div className="home-legend-card">
+              <img src={logoArs} alt="Tony Adams" className="home-legend-img" />
+              <span className="home-legend-name">Tony Adams</span>
+            </div>
+          </div>
+        </section>
+        <section className="home-stadium-section">
+          <h2 className="home-section-title">Emirates Stadium</h2>
+          <p className="home-section-text">
+            Home to the Gunners since 2006, the Emirates Stadium boasts a capacity of 60,704 and is a fortress of modern football, hosting unforgettable matches and passionate fans.
+          </p>
+        </section>
+        <section className="home-trophy-section">
+          <h2 className="home-section-title">Trophy Cabinet</h2>
+          <ul className="home-trophy-list">
+            <li>13 League Titles</li>
+            <li>14 FA Cups</li>
+            <li>2 League Cups</li>
+            <li>16 Community Shields</li>
+            <li>UEFA Cup Winners' Cup</li>
+          </ul>
+        </section>
+        <section className="home-social-section">
+          <h2 className="home-section-title">Connect with Arsenal</h2>
+          <div className="home-social-links">
+            <a href="https://twitter.com/Arsenal" target="_blank" rel="noopener noreferrer" className="home-social-link">Twitter</a>
+            <a href="https://instagram.com/arsenal" target="_blank" rel="noopener noreferrer" className="home-social-link">Instagram</a>
+            <a href="https://facebook.com/Arsenal" target="_blank" rel="noopener noreferrer" className="home-social-link">Facebook</a>
+            <a href="https://www.arsenal.com/" target="_blank" rel="noopener noreferrer" className="home-social-link">Official Site</a>
+          </div>
+        </section>
+        {/* --- END NEW CONTENT --- */}
       </div>
     </div>
   </div>
